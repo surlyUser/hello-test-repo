@@ -23,8 +23,12 @@ def quadratic(a, b, c):
     x2 = complex(round(x2.real, 2), round(x2.imag, 2))
     # print(f'x1: {x1:.2f} x2: {x2:.2f}')
     # return f'x1: {x1:.2f} x2: {x2:.2f}'
+<<<<<<< HEAD
     # solutions = [x1, x2]
     return [x1, x2]
+=======
+    solutions = [x1, x2]
+>>>>>>> 74f8ada223bc5ac4c6a099dbd382b4cd78f1a93a
 
 a = float(input("a: "))
 b = float(input("b: "))
